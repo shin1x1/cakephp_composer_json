@@ -6,8 +6,8 @@ cakephp_composer_js
 
 <pre>
 $ git clone git@github.com:shin1x1/cakephp_composer_js.git
-$ curl -O http://getcomposer.org/composer.phar
-$ php composer.phar install
+$ curl -sS https://getcomposer.org/installer | php
+$ ./composer.phar install
 </pre>
 
 2. Setup CakePHP app
