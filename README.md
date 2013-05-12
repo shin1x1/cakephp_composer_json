@@ -30,4 +30,9 @@ $ vim app/Console/cake.php
 ini_set('include_path', $root.$ds.'vendor'.$ds.'cakephp'.$ds.'cakephp'.$ds.'lib'.PATH_SEPARATOR . ini_get('include_path'));
 </pre>
 
+3. Update CakePHP
+-----------------------------------
 
+<pre>
+$ php composer.phar update
+</pre>
