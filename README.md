@@ -6,6 +6,7 @@ cakephp_composer_js
 
 <pre>
 $ git clone git@github.com:shin1x1/cakephp_composer_js.git
+$ cd cakephp_composer_js
 $ curl -sS https://getcomposer.org/installer | php
 $ ./composer.phar install
 </pre>
@@ -16,6 +17,12 @@ $ ./composer.phar install
 <pre>
 $ cp -a vendor/cakephp/cakephp/app .
 </pre>
+
+or
+<pre>
+$ ./vendor/cakephp/cakephp/lib/Cake/Console/cake bake project
+</pre>
+
 
 Edit include_path
 
@@ -30,9 +37,16 @@ $ vim app/Console/cake.php
 ini_set('include_path', $root.$ds.'vendor'.$ds.'cakephp'.$ds.'cakephp'.$ds.'lib'.PATH_SEPARATOR . ini_get('include_path'));
 </pre>
 
-3. Update CakePHP
+3. Hello Cake!
 -----------------------------------
 
 <pre>
-$ php composer.phar update
+$ ./app/Console/cake server -p 10000
+</pre>
+
+4. Update CakePHP core
+-----------------------------------
+
+<pre>
+$ ./composer.phar update
 </pre>
