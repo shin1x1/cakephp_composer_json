@@ -1,12 +1,12 @@
-cakephp_composer_js
-===================
+cakephp_composer_json
+=======================
 
 1. Install CakePHP using Composer
 -----------------------------------
 
 <pre>
-$ git clone git@github.com:shin1x1/cakephp_composer_js.git
-$ cd cakephp_composer_js
+$ git clone git@github.com:shin1x1/cakephp_composer_json.git
+$ cd cakephp_composer_json
 $ curl -sS https://getcomposer.org/installer | php
 $ ./composer.phar install
 </pre>
