@@ -5,7 +5,7 @@ cakephp_composer_json
 -----------------------------------
 
 <pre>
-$ git clone git@github.com:shin1x1/cakephp_composer_json.git
+$ git clone https://github.com/shin1x1/cakephp_composer_json.git
 $ cd cakephp_composer_json
 $ curl -sS https://getcomposer.org/installer | php
 $ ./composer.phar install
