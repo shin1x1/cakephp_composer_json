@@ -1,5 +1,6 @@
 vendor/*
 
+app/Plugin/DebugKit
 app/tmp/cache/*
 app/tmp/cache/models/*
 app/tmp/cache/persistent/*
