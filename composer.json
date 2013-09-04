@@ -4,10 +4,10 @@
       "type": "package",
       "package": {
         "name" : "cakephp/cakephp",
-        "version" : "2.3.9",
+        "version" : "2.4.0",
         "dist" : {
           "type" : "zip",
-          "url" : "https://github.com/cakephp/cakephp/archive/2.3.9.zip"
+          "url" : "https://github.com/cakephp/cakephp/archive/2.4.0.zip"
         }
       }
     }
@@ -19,7 +19,7 @@
   },
   "require" : {
     "php": ">=5.2",
-    "cakephp/cakephp" : "2.3.*",
+    "cakephp/cakephp" : "2.4.*",
     "cakephp/debug_kit": "2.2.*@dev"
   }
 }
